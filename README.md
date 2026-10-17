@@ -1,7 +1,10 @@
 # bad-apple-turtlesim
 <img width="498" height="540" alt="image" src="https://github.com/user-attachments/assets/96708c65-1d4d-44f6-bf32-39991d684bd7" />
 
-[![Video Penjelasan]([https://youtube.com](https://youtu.be/flTgLDVi8xM))]
+[![Video Penjelasan](https://img.youtube.com/vi/flTgLDVi8xM/hqdefault.jpg)](https://www.youtube.com/watch?v=flTgLDVi8xM)
+
+[Video Penjelasan](https://www.youtube.com/watch?v=flTgLDVi8xM)
+
 ### me when the apple is of subpar quality
 
 repo ini berisi kode C++ ROS2 untuk menggambar frame ke-83 dari "Bad Apple!"
