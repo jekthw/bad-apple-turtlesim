@@ -1,6 +1,7 @@
 # bad-apple-turtlesim
 <img width="498" height="540" alt="image" src="https://github.com/user-attachments/assets/96708c65-1d4d-44f6-bf32-39991d684bd7" />
 
+[![Video Penjelasan]([https://youtube.com](https://youtu.be/flTgLDVi8xM))]
 ### me when the apple is of subpar quality
 
 repo ini berisi kode C++ ROS2 untuk menggambar frame ke-83 dari "Bad Apple!"
@@ -11,6 +12,8 @@ DIBUAT SEBAGAI PENUGASAN MODUL 2 INTERNSHIP ROBOCOON
 - Buat file dengan nama "waypoints.txt" pada directory yang sama dengan program
 - Isi file tersebut dengan data koordinat yang ingin digambar
 - Gunakan -1 -1 untuk mengangkat pen jika ingin membuat bidang baru yang terpisah (jangan lupa taruh di awal file juga agar si kura-kura tidak menarik garis dari origin menuju titik pertama)
+- ganti directory pada file .cpp dengan letak file "waypoints.txt" 
+- tinggal build dan jalankan saja programnya dengan `ros2 run turtledraw draw` tanpa parameter tambahan
 
 **Ultra Max Extreme Professional quality of life tip:** 
 Gunakan web seperti plotextract.com untuk menggambar titik secara manual (tidak perlu terlalu akurat) lalu download sebagai .csv dan extract data yang diperlukan menggunakan Google Sheet / Excel. 
@@ -21,8 +24,8 @@ Gunakan web seperti plotextract.com untuk menggambar titik secara manual (tidak 
 - bisa membuat bidang terpisah
 - sudah menggunakan PID jadi garisnya tidak menccenggzc
 ### kelemahan
-- developer tidak tau cara membuat algoritma untuk otomasi perubahan gambar apapun menjadi data titik (sengaja ditiadakan sebagai tantangan bagi pembaca untuk membuat algoritma tersebut sendiri)
-
+- aku gatau cara bikin algoritma untuk otomatis generate data titik dari gambar
+  
 # how did we get here?
 <img width="648" height="142" alt="image" src="https://github.com/user-attachments/assets/72ce96c1-7f95-499e-b15e-6b0e7231ee28" />
 
@@ -159,4 +162,4 @@ void posCallback(turtlesim::msg::Pose::SharedPtr msg) {
 ```
 disini, setiap kali kita mendapati nilai -1 pada waypoint, kita akan anggap itu sebagai perintah untuk mematikan pena. lalu iterasikan idx dan berjalan ke waypoint selanjutnya, dimana ia akan menerima flag `activatePen` yang sebelumnya diberi nilai 1 untuk menyalakan pen kembali sebelum lanjut bergerak ke titik berikutnya lagi.
 
-### YAUDAH SIH GITU AJA BENTAR YA MAS HABIS INI AKU PUSH LAGI BUAT LINK YOUTUBE NYA
+
