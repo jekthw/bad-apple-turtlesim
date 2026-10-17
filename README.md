@@ -66,7 +66,7 @@ ARTINYA dengan ini kita dibebaskan untuk memberikan dia data sebanyak-banyaknya 
 di barisan kode ini terdapat pengecekan juga untuk memastikan turtle tidak bergerak ke koordinat {-1 -1} segera setelah membaca nilai pertama (yang biasanya bernilai {-1-1} untuk mematikan pen sementara saat turtle berpindah dari origin ke waypoint pertama)
 
 
-## i put the D In PID
+## I put the D In PID (but its actually PID without the I and the D aka its only proportional)
 mekanisme utama publish perintah pergerakan
 ```cpp
     void posCallback(turtlesim::msg::Pose::SharedPtr msg) {
@@ -112,18 +112,9 @@ program ini bergerak berdasar event-based trigger. artinya setiap kali ia meneri
 
 PID nya terletak pada bagaimana program ini memerintah kura-kura untuk bergerak, dimana ia mnenyatakan `message.linear.x = 3.0*dist;`. 
 Kecepatan kura-kura berubah secara proporsional dengan jaraknya sekarang dikali suatu nilai proportional gain yang kita sesuaikan sendiri agar ia tidak terlalu lambat dalam bergerak, namun tidak sampai overshoot juga.
-hal yang sama terjadi pada `message.angular.z = 4.5*angle;` dimana kecepatan berputar kura-kura berubah secara proporsional terhadap kekurangan sudut dirinya pada waypoint.  
+hal yang sama terjadi pada `message.angular.z = 4.5*angle;` dimana kecepatan berputar kura-kura berubah secara proporsional terhadap kekurangan sudut dirinya pada waypoint. walau sebenarnya setelah membaca kode nya lagi, ini hanya mencakup 1 elemen dari PID yakni P: proportional.
 
 program akan mengecek bila posisinya belum mendekati tujuan `(dist > 0.1)`, ia akan melakukan kalkulasi sudut yang perlu ia putar agar menghadap waypoint, lalu berjalan menuju titik tersebut.
-
-
-
-Aku teringat program serupa yang pernah aku program di game Mindustry—ya gak serupa juga tapi intinya ada objek yang diberikan suatu titik tujuan lalu dia bergerak menuju titik tersebut.
-Caranya adalah kita menghitung vektor arah dari titik lokasi saat ini menuju koordinat target. 
-Dari selisih koordinat itu (`distX` & `distY`), kita dapet jarak dan sudut yang harus dihadap si kura-kura menggunakan `atan2(distY, distX)` (arc tangent 2). 
-lalu agar berputarnya tidak berlebihan saat transisi sudut (misal dari `pi` ke `-pi` yang seharusnya bertitik sama tapi kura-kura akan berputar 360 derajat), error sudutnya harus melalui rumus normalisasi `angle = atans2(sin(angle), cos(e)`
-"PID nya dimana" anda mungkin bertanya. 
-Program ini berperan sebagai publisher untuk topik `/turtle1/cmd_vel` sekaligus subscriber topik `/turtle1/pose via posCallback()`. Artinya tiap kali posisi kura-kura berpindah, ia akan merekalkulasi perintah kecepatan untuk mencapai waypoint dengan akurat. 
 
 ### pen up pen down pen up pen down pen up pen down pen up...
 <img width="406" height="432" alt="image" src="https://github.com/user-attachments/assets/80c5a089-8352-43a3-a1bb-7ba15dc5099a" />
