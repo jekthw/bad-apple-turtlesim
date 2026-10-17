@@ -17,11 +17,11 @@ Gunakan web seperti plotextract.com untuk menggambar titik secara manual (tidak 
 <img width="1706" height="1002" alt="image" src="https://github.com/user-attachments/assets/872b43be-4310-442d-bf1e-6b9e9a647fff" />
 
 ### keunggulan
-- bisa menggambar gambar apa saja asal berupa outline monokrom + pengguna tidak malas menggambar gambar tersebut
+- bisa menggambar gambar apa saja asal berupa outline monokrom + sudah diberikan koordinat titik-titik yang perlu digambar
 - bisa membuat bidang terpisah
 - sudah menggunakan PID jadi garisnya tidak menccenggzc
 ### kelemahan
-- developer tidak tau cara membuat algoritma untuk otomasi perubahan gambar apapun menjadi data titik
+- developer tidak tau cara membuat algoritma untuk otomasi perubahan gambar apapun menjadi data titik (sengaja ditiadakan sebagai tantangan bagi pembaca untuk membuat algoritma tersebut sendiri)
 
 # how did we get here?
 <img width="648" height="142" alt="image" src="https://github.com/user-attachments/assets/72ce96c1-7f95-499e-b15e-6b0e7231ee28" />
@@ -29,7 +29,7 @@ Gunakan web seperti plotextract.com untuk menggambar titik secara manual (tidak 
 proyek ini dimulai sebagai penugasan modul 2 internship robocon dimana kita ditugaskan untuk membuat program untuk membuat gambar di turtlesim ROS2, yang hanya menerima masukkan berupa seberapa cepat ia berjalan per detik nya dan seberapa cepat ia berputar pada porosnya. tantangannya terletak dalam mengubah suatu gambar/data titik yg kita punya menjadi gerakan dan putaran tersebut.
 
 ## if it has a screen, you can put bad apple on it
-aku awalnya bingung he iki nggambar opo yo aduh hmm lalu saya terpikirkan eh bad apple kyke lucu  jadi akhirnya itu yg saya tetapkan sebagai tujuan. tapi tentunya menghardcode titik gambar satu-satu pada barisan program itu melelahkan woy nah terpikirkanlah saya oh gimana kalau gambar nya saya buat dulu di program eksternal, saya extract data data titik nya secara berurutan, terus program itu bisa menerima data titik titik tersebut dan diolah menjadi perintah bergerak dan berputar untuk si kura-kura
+aku awalnya bingung _he iki nggambar opo yo aduh hmm_ lalu saya terpikirkan _eh bad apple kyke lucu_  jadi akhirnya itu yg saya tetapkan sebagai tujuan. tapi saya berpikir tentunya menghardcode titik gambar satu-satu pada barisan program itu melelahkan woy nah terpikirkanlah saya oh gimana kalau gambar nya saya buat dulu di program eksternal, saya extract data data titik nya secara berurutan, terus program itu bisa menerima data titik titik tersebut dan diolah menjadi perintah bergerak dan berputar untuk si kura-kura. 
 
 ## DRAW ANYTHINGKNGGGGGG
 mekanismu input file
