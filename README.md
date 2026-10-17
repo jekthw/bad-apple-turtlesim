@@ -13,7 +13,7 @@ DIBUAT SEBAGAI PENUGASAN MODUL 2 INTERNSHIP ROBOCOON
 - Gunakan -1 -1 untuk mengangkat pen jika ingin membuat bidang baru yang terpisah (jangan lupa taruh di awal file juga agar si kura-kura tidak menarik garis dari origin menuju titik pertama)
 
 **Ultra Max Extreme Professional quality of life tip:** 
-Gunakan web seperti plotextract.com untuk menggambar titik secara manual (tidak perlu terlalu akurat) lalu download sebagai .csv dan extract data yang diperlukan menggunakan Google Sheet / Excel. Jangan lupa ubah karakter tab dengan karakter spasi jika menyalin dari kedua program tersebut.
+Gunakan web seperti plotextract.com untuk menggambar titik secara manual (tidak perlu terlalu akurat) lalu download sebagai .csv dan extract data yang diperlukan menggunakan Google Sheet / Excel. 
 <img width="1706" height="1002" alt="image" src="https://github.com/user-attachments/assets/872b43be-4310-442d-bf1e-6b9e9a647fff" />
 
 ### keunggulan
@@ -55,7 +55,9 @@ void loadWaypoints(const std::string& filepath) {
     }
 ```
 prosedur di atas bertugas untuk melakukan looping dari awal file hingga EOF, dan push_back nilai semua x,y sebagai `pair<double,double>` ke dalam vector `waypoints`.
-terdapat pengecekan kecil juga untuk memastikan turtle tidak bergerak ke koordinat {-1 -1} segera setelah membaca nilai pertama (yang biasanya bernilai {-1-1} untuk mematikan pen sementara)
+ARTINYA dengan ini kita dibebaskan untuk memberikan dia data sebanyak-banyaknya berupa file.txt, dimana ia akan menyalin data tersebut ke dalam sebuah vector yang akan dijadikan waypoints si turtle bergerak. pengguna bisa menggambar apa saja asal mereka memiliki data titik-titik untuk gambaran tersebut secara berurutan dengan range 0-11. kita juga bisa menaruh -1 untuk memberi tahu turtle agar mengangkat pena, sehingga kita bisa membuat bidang baru yang tidak terhubung dengan bidang sebelumnya.
+
+di barisan kode ini terdapat pengecekan juga untuk memastikan turtle tidak bergerak ke koordinat {-1 -1} segera setelah membaca nilai pertama (yang biasanya bernilai {-1-1} untuk mematikan pen sementara saat turtle berpindah dari origin ke waypoint pertama)
 
 
 ## i put the D In PID
