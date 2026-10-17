@@ -1,5 +1,5 @@
 # bad-apple-turtlesim
-<img width="520" height="558" alt="image" src="https://github.com/user-attachments/assets/570c44bc-bb2f-4805-9e7f-6a81230a8449" />
+<img width="498" height="540" alt="image" src="https://github.com/user-attachments/assets/96708c65-1d4d-44f6-bf32-39991d684bd7" />
 
 ### me when the apple is of subpar quality
 
