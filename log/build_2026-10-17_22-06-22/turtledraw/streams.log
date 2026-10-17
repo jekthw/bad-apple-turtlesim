@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/jekthw/ros2_ws/src/turtledraw/build/turtledraw': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jekthw/ros2_ws/src/turtledraw/build/turtledraw -- -j12 -l12
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target draw[0m
+[0.062s] [ 50%] [32mBuilding CXX object CMakeFiles/draw.dir/src/turtledraw.cpp.o[0m
+[7.035s] [100%] [32m[1mLinking CXX executable draw[0m
+[7.378s] [100%] Built target draw
+[7.389s] Invoked command in '/home/jekthw/ros2_ws/src/turtledraw/build/turtledraw' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jekthw/ros2_ws/src/turtledraw/build/turtledraw -- -j12 -l12
+[7.399s] Invoking command in '/home/jekthw/ros2_ws/src/turtledraw/build/turtledraw': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jekthw/ros2_ws/src/turtledraw/build/turtledraw
+[7.405s] -- Install configuration: ""
+[7.405s] -- Installing: /home/jekthw/ros2_ws/src/turtledraw/install/turtledraw/lib/turtledraw/draw
+[7.410s] -- Set runtime path of "/home/jekthw/ros2_ws/src/turtledraw/install/turtledraw/lib/turtledraw/draw" to ""
+[7.410s] -- Up-to-date: /home/jekthw/ros2_ws/src/turtledraw/install/turtledraw/share/ament_index/resource_index/package_run_dependencies/turtledraw
+[7.410s] -- Up-to-date: /home/jekthw/ros2_ws/src/turtledraw/install/turtledraw/share/ament_index/resource_index/parent_prefix_path/turtledraw
+[7.410s] -- Up-to-date: /home/jekthw/ros2_ws/src/turtledraw/install/turtledraw/share/turtledraw/environment/ament_prefix_path.sh
+[7.410s] -- Up-to-date: /home/jekthw/ros2_ws/src/turtledraw/install/turtledraw/share/turtledraw/environment/ament_prefix_path.dsv
+[7.410s] -- Up-to-date: /home/jekthw/ros2_ws/src/turtledraw/install/turtledraw/share/turtledraw/environment/path.sh
+[7.410s] -- Up-to-date: /home/jekthw/ros2_ws/src/turtledraw/install/turtledraw/share/turtledraw/environment/path.dsv
+[7.410s] -- Up-to-date: /home/jekthw/ros2_ws/src/turtledraw/install/turtledraw/share/turtledraw/local_setup.bash
+[7.410s] -- Up-to-date: /home/jekthw/ros2_ws/src/turtledraw/install/turtledraw/share/turtledraw/local_setup.sh
+[7.411s] -- Up-to-date: /home/jekthw/ros2_ws/src/turtledraw/install/turtledraw/share/turtledraw/local_setup.zsh
+[7.411s] -- Up-to-date: /home/jekthw/ros2_ws/src/turtledraw/install/turtledraw/share/turtledraw/local_setup.dsv
+[7.411s] -- Installing: /home/jekthw/ros2_ws/src/turtledraw/install/turtledraw/share/turtledraw/package.dsv
+[7.411s] -- Up-to-date: /home/jekthw/ros2_ws/src/turtledraw/install/turtledraw/share/ament_index/resource_index/packages/turtledraw
+[7.411s] -- Up-to-date: /home/jekthw/ros2_ws/src/turtledraw/install/turtledraw/share/turtledraw/cmake/turtledrawConfig.cmake
+[7.411s] -- Up-to-date: /home/jekthw/ros2_ws/src/turtledraw/install/turtledraw/share/turtledraw/cmake/turtledrawConfig-version.cmake
+[7.411s] -- Up-to-date: /home/jekthw/ros2_ws/src/turtledraw/install/turtledraw/share/turtledraw/package.xml
+[7.413s] Invoked command in '/home/jekthw/ros2_ws/src/turtledraw/build/turtledraw' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jekthw/ros2_ws/src/turtledraw/build/turtledraw

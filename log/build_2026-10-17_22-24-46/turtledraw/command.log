@@ -1,0 +1,4 @@
+Invoking command in '/home/jekthw/ros2_ws/src/turtledraw/build/turtledraw': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jekthw/ros2_ws/src/turtledraw/build/turtledraw -- -j12 -l12
+Invoked command in '/home/jekthw/ros2_ws/src/turtledraw/build/turtledraw' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jekthw/ros2_ws/src/turtledraw/build/turtledraw -- -j12 -l12
+Invoking command in '/home/jekthw/ros2_ws/src/turtledraw/build/turtledraw': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jekthw/ros2_ws/src/turtledraw/build/turtledraw
+Invoked command in '/home/jekthw/ros2_ws/src/turtledraw/build/turtledraw' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jekthw/ros2_ws/src/turtledraw/build/turtledraw

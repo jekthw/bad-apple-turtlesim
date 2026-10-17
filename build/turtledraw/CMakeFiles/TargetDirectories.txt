@@ -1,0 +1,10 @@
+/home/jekthw/ros2_ws/src/turtledraw/build/turtledraw/CMakeFiles/uninstall.dir
+/home/jekthw/ros2_ws/src/turtledraw/build/turtledraw/CMakeFiles/turtledraw_uninstall.dir
+/home/jekthw/ros2_ws/src/turtledraw/build/turtledraw/CMakeFiles/draw.dir
+/home/jekthw/ros2_ws/src/turtledraw/build/turtledraw/CMakeFiles/test.dir
+/home/jekthw/ros2_ws/src/turtledraw/build/turtledraw/CMakeFiles/edit_cache.dir
+/home/jekthw/ros2_ws/src/turtledraw/build/turtledraw/CMakeFiles/rebuild_cache.dir
+/home/jekthw/ros2_ws/src/turtledraw/build/turtledraw/CMakeFiles/list_install_components.dir
+/home/jekthw/ros2_ws/src/turtledraw/build/turtledraw/CMakeFiles/install.dir
+/home/jekthw/ros2_ws/src/turtledraw/build/turtledraw/CMakeFiles/install/local.dir
+/home/jekthw/ros2_ws/src/turtledraw/build/turtledraw/CMakeFiles/install/strip.dir

@@ -1,0 +1,8 @@
+source;share/turtledraw/hook/cmake_prefix_path.ps1
+source;share/turtledraw/hook/cmake_prefix_path.dsv
+source;share/turtledraw/hook/cmake_prefix_path.sh
+source;share/turtledraw/local_setup.bash
+source;share/turtledraw/local_setup.dsv
+source;share/turtledraw/local_setup.ps1
+source;share/turtledraw/local_setup.sh
+source;share/turtledraw/local_setup.zsh
